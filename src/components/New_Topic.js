@@ -10,11 +10,12 @@ class New_Topic extends Component {
              <div id="align-top"></div>
         <h2 className="mt-5 pt-5">Share your news with us</h2>
         <div className="container">
+            
             <div className="form-group mx-sm-3 mb-2">
-                <label>Title:</label>
+            <label ><h4>Title:</h4></label>
                   <input
                     type="text"
-                    className="form-search"
+                    className="form-search title"
                     placeholder="Enter a Title"
                   />
                 </div>
