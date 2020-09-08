@@ -8,6 +8,17 @@ class New_Topic extends Component {
         <div >
              <div id="align-top"></div>
              <div id="align-top"></div>
+             <ul id="breadcrumb">
+          <li>
+            <a href="/">
+              <span class="fas fa-globe"> </span>
+            </a>
+          </li>
+          <li>
+            <a className="disabledHoverBC">Post</a>
+          </li>
+          <li></li>
+             </ul>
         <h2 className="mt-5 pt-5">Share your news with us</h2>
         <div className="container">
             
